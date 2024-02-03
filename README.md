@@ -144,7 +144,7 @@ sudo systemctl start slurmd.service
 sudo systemctl enable slurmd.service
 ```
 
-### 16. Submit a job on the controller machine and check the report
+### 16. Submit a job on the controller machine and check the report:
 
 ``` 
 sbatch job-part1.sh
