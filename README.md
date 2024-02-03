@@ -105,10 +105,10 @@ sudo make install
 
 ```
 #on controller
-sudo cp /etc/slurmctld.service /etc/systemd/system
-sudo cp /etc/slurmdbd.service /etc/systemd/system
+sudo cp etc/slurmctld.service /etc/systemd/system
+sudo cp etc/slurmdbd.service /etc/systemd/system
 #on compute nodes
-sudo cp /etc/slurmd.service /etc/systemd/system
+sudo cp etc/slurmd.service /etc/systemd/system
 ```
 
 ### 12. Create and set permissions of SLURM directories:
