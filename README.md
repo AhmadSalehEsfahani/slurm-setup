@@ -10,7 +10,7 @@ Before you begin, you will need to have access to some Ubuntu 20.04 machines. Yo
 
 Follow these steps to install and configure Slurm on your Ubuntu 20.04 machine:
 
-### 1. Create Munge and Slurm users and set their user and group IDs:
+### 1. Create Munge and Slurm users:
 
 ```
 export MUNGEUSER=1001
@@ -33,7 +33,7 @@ sudo cp /etc/munge/munge.key ~
 
 Copy `munge.key` to `/etc/munge/` directory of all machines (compute nodes and controller).
 
-### 4. Create and set permissions of Munge directories:
+### 4. Set permissions of Munge directories:
 
 ```
 sudo chown -R munge: /etc/munge/ /var/log/munge/ /var/lib/munge/ /run/munge/
@@ -49,7 +49,7 @@ sudo systemctl start munge
 sudo systemctl status munge
 ```
 
-### 6. Test munge connection with these commands:
+### 6. Test munge connection:
 
 ```
 munge -n | unmunge | grep STATUS
@@ -144,7 +144,7 @@ sudo systemctl start slurmd.service
 sudo systemctl enable slurmd.service
 ```
 
-### 16. Submit a job on the controller machine and check the report:
+### 16. Submit a job:
 
 ``` 
 sbatch job-part1.sh
