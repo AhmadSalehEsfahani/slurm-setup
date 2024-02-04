@@ -1,14 +1,14 @@
 # Slurm Setup Guide
 
-This repository contains instructions for installing and configuring Slurm on Ubuntu 20.04. There is not a lot of information available on this topic, so I created this guide to help others who are interested in using Slurm.
+This repository contains instructions for installing and configuring Slurm on Ubuntu-20.04. There is not a lot of information available on this topic, so I created this guide to help others who are interested in using Slurm.
 
 ## Prerequisites
 
-Before you begin, you will need to have access to some Ubuntu 20.04 machines. You will also need to have administrative privileges on these machines.
+Before you begin, you will need to have access to some Ubuntu-20.04 machines. You will also need to have administrative privileges on these machines.
 
 ## Installation
 
-Follow these steps to install and configure Slurm on your Ubuntu 20.04 machine:
+Follow these steps to install and configure Slurm on your Ubuntu-20.04 machine:
 
 ### 1. Create Munge and Slurm users:
 
@@ -171,5 +171,5 @@ sudo make install
 
 ## Conclusion
 
-That's it! You should now have Slurm installed and configured on your Ubuntu 20.04 machines. If you have any questions or run into any issues, feel free to reach out to me.
+That's it! You should now have Slurm installed and configured on your Ubuntu-20.04 machines. If you have any questions or run into any issues, feel free to reach out to me.
 
